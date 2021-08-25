@@ -2324,6 +2324,9 @@ pre code {
     .col-sm-6 {
         width: 50%
     }
+    .col-sm-61 {
+        width: 100%
+    }
     .col-sm-5 {
         width: 41.66666667%
     }
