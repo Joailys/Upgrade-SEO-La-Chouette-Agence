@@ -838,7 +838,12 @@ h4 {
     font-size: 23px;
 
 }
-
+.identite{
+    height:40px;
+}
+.identite2{
+    height:100px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
