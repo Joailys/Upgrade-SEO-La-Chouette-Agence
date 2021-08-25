@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+    <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
     <title>Contact</title>
@@ -33,7 +34,7 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo" class="identite" /></a>
+              <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo la chouette agence" class="identite" /></a>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
@@ -74,19 +75,19 @@
             <div class="col-sm-61">
               <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
                 <div class="form-group white">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group white">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input id="email" class="form-control" type="email" required />
                 </div>
                 <div class="form-group white">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504"> Comment nous avez-vous connu ? </label>
                   <input class="form-control" type="email" required id="input_504" />
                 </div>
                 <div class="form-group white">
-                  <label> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br /> </label><textarea id="message" class="form-control" required></textarea>
+                  <label for="message"> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br /> </label><textarea id="message" class="form-control" required></textarea>
                 </div>
                 <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
               </form>
