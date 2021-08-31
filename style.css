@@ -553,6 +553,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    margin:0 auto;
 }
 
 a[data-lightbox]:hover img {
