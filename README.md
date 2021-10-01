@@ -7,4 +7,4 @@
 * Optimiser la taille et la vitesse d’un site web
 * Optimiser le référencement d'un site web
 
-https://joailys.github.io/P4_Lemaitre_Simon/****
+https://joailys.github.io/Upgrade-SEO-La-Chouette-Agence/
